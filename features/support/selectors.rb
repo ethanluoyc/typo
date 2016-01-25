@@ -16,6 +16,8 @@ module HtmlSelectorsHelpers
     when "the page"
       "html > body"
 
+    when "the category table"
+      "table#category_container"
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
